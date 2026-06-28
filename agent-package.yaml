@@ -1,0 +1,18 @@
+# Agent package manifest — Microsoft APM-compatible
+# Generated from access group: Finance
+
+apiVersion: agentpackage.dev/v1
+kind: AgentPackage
+metadata:
+  name: bucket-finance
+  displayName: "Finance"
+  description: "Pure-policy skill group for Finance — discount approval rules and vendor spend thresholds. No external tool dependencies, just guardrails any agent can load."
+  owner: finance-ops@acme.com
+spec:
+  skills:
+    - id: skill-010
+      name: "Finance Discount Approval Rules"
+      version: "1.0.0"
+    - id: skill-011
+      name: "Vendor Spend Approval Policy"
+      version: "1.0.0"
