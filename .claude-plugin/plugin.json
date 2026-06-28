@@ -1,0 +1,6 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "Pure-policy skill group for Finance — discount approval rules and vendor spend thresholds. No external tool dependencies, just guardrails any agent can load.",
+  "owner": "finance-ops@acme.com"
+}
